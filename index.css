@@ -1,0 +1,210 @@
+/*CSS CODE*/
+html {  
+  scroll-behavior: smooth;  
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:  1fr 2fr;
+}
+
+body{
+  background-color: #F9E8C9;
+}
+.navbar li{
+  list-style: none;
+  float: left;
+  color: #011A38;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 100PX;
+  padding: 2PX;
+  border-radius: 7PX;
+}
+.navbar li{
+  background: #F9E8C9;
+  transition: background-color 0.3s ease-out 100ms
+}
+
+.navbar li:hover {
+  background-color: #a8b5ea;
+}
+.name{
+  font-family: "Sacramento", cursive;
+  font-weight: 7rem;
+  margin-left: 90px;
+  position: absolute;
+  color: #011A38;
+}
+.my-pic,.my-photo{
+  grid-row-start: 3;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.intro{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  display: grid;
+  text-align:left;
+  color: #805962;
+  font-size: xx-large;
+  align-content: center;
+}
+.who-am-i{
+  font-family:Georgia, 'Times New Roman', Times, serif, serif;
+  font-size: 5rem;
+  grid-column-start: span 2;
+  display: grid;
+  place-items: center;
+  color: #012b5e;
+  
+}
+.motivationFurstration{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.motivationFurstration h3{
+color: #012b5e;
+}
+.motivationFurstration ul{
+  color:#FC4100;
+}
+.flexcontainer{
+  display: flex;
+  background-color: #a5b5f0;
+  width: 100%;
+}
+#skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #012b5e;
+}
+.c-pic{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.c-skil{
+  display: flex;
+  text-align:left;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  align-items: center;
+}
+.flexcontainer2{
+  display: flex;
+  background-color: #9fb6ce;
+}
+.j-skil{
+  display: flex;
+  text-align:left;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  align-items: center;
+}
+.java-pic{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.flexcontainer3{
+  display: flex;
+  background-color: #6d9aca;
+}
+.f-skil{
+  display: flex;
+  text-align:left;
+  font-size: 2rem;
+  color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+.figma-pic{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.contact-container{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+#git{
+  grid-column-start: span 2;
+  display: grid;
+  place-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #012b5e;
+}
+.greet{
+  grid-column-start: span 2;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #012b5e;
+
+}
+.form-container form {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 300px;
+  margin-left: 20px;
+}
+.form-container input[type="text"],
+.form-container input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-container input[type="submit"] {
+  background-color: #19721c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.social-media{
+margin-left: 50px;
+font-family: "Kaushan Script", cursive;
+color: #012b5e;
+}
+a,.social-media{
+  margin-right: 10px;
+}
+footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cfcdca;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
